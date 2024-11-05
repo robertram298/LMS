@@ -3,7 +3,7 @@
         <h3>SIGN IN</h3>
         <input type="email" name="email" id="lgn_email" placeholder ="Enter email" class="box" [(ngModel)]="loginObj.EmailID"/>
         <input type="password" name="password" class="box" [(ngModel)]="loginObj.Password"/>
-        <button type="submit" id="submit">Submit</button>
+        <button type="submit" id="submit" (click)="onLogin()">Submit</button>
         <a href="#">Forget password</a>
     </form>
     <div class="side">
